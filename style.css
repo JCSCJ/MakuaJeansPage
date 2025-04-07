@@ -64,7 +64,7 @@ a{
     margin-left: 0px; 
 }
 .portada{
-    background-image: url('/public/portada.png');
+    background-image: url('/img/portada.png');
     background-size: cover;
     background-position: center;
     height: 50vh;
