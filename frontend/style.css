@@ -1,0 +1,179 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 2%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.nav li a:hover {
+    color: #b8095c;
+}
+
+.logo-marca img {
+    max-width: 60px;
+    height: auto;
+}
+
+.icono {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-left: 0px; 
+}
+.portada{
+    background-image: url('/public/portada.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.about{
+    padding: 10px 30%;
+    margin: 80px 70px;
+}
+.about h1{
+    font-size: 45px;
+    margin: 0px;
+    padding: 5px 0px;
+    font-weight: 700;
+}
+.about p{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+}
+.logo img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.section{
+    padding: 0 20%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.photos{
+    margin: 10% auto;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 30%;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: auto;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+.social-media {
+    display: flex; /* Alinea los elementos en una fila */
+    align-items: center; /* Centra verticalmente los íconos y el texto */
+    gap: 10px; /* Espacio entre los íconos y el texto */
+}
+
+.social-media a {
+    display: flex; /* Asegura que el ícono y el texto estén juntos */
+    align-items: center; /* Centra verticalmente el texto con el ícono */
+    text-decoration: none; /* Elimina la subrayado del texto */
+    color: #fff; /* Color del texto */
+    font-size: 14px; /* Tamaño del texto */
+    gap: 5px; /* Espacio entre el ícono y el texto */
+}
+
+.social-media a img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
